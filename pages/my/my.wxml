@@ -1,0 +1,44 @@
+<view class='protail'>
+  <view class='tobox'>
+    <view class='up'></view>
+    <view class='rt'>
+      <view class='le'></view>
+      <view class='ri'>SPORTLIGHT</view>
+    </view>
+  </view>
+  <view class='do'>彭于晏</view>
+  <view class='md'>
+    <view class='le'>
+      <view class='up'>训练阶段</view>      
+      <view class='do'>初级</view>
+    </view>
+    <view class='mi'>
+      <view class='up'>训练时长(分钟)</view>      
+      <view class='do'>1.728</view>
+    </view>
+    <view class='ri'>
+      <view class='up'>运动天数</view>      
+      <view class='do'>18</view>
+    </view>
+  </view>
+</view>
+<view class='modu'>
+  <view>运动数据</view>      
+  <view></view>
+</view>
+<view class='modu'>
+  <view>成就徽章</view>      
+  <view></view>
+</view>
+<view class='modu'>
+  <view>体能报告</view>      
+  <view></view>
+</view>
+<view class='modu'>
+  <view>邀请好友</view>      
+  <view></view>
+</view>
+<view class='modu'>
+  <view>意见反馈</view>      
+  <view></view>
+</view>

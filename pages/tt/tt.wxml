@@ -1,0 +1,3 @@
+<!--pages/tt/tt.wxml-->
+<view class="ripple" style="{{rippleStyle}}"></view>
+<view class="container" bindlongtap="containerTap"></view>

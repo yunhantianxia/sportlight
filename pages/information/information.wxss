@@ -1,0 +1,52 @@
+.main{
+  background: green;
+  width: 100%;
+  height: 735rpx;
+}
+.cont{
+  width: 100%;
+  height: 100rpx;
+  background: yellow;
+  margin-top: 50rpx;
+}
+.titup{
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+}
+.titup span{
+  height: 40rpx;
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  letter-spacing: 2rpx;
+  text-align: center;
+  color: #2c2b3d;
+}
+.titdo{
+  height: 20rpx;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.titdo span{
+  font-family: PingFangSC;
+  text-align: center;
+  color: #2c2b3d;
+  line-height: 16rpx;
+  font-size:64rpx;
+}
+.len{
+  width: 3000rpx;
+  background: blue;
+  height: 300rpx;
+}
+.next{
+  width: 100%;
+  height: 100rpx;
+  background: red;
+  text-align: center;
+}

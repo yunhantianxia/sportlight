@@ -1,0 +1,18 @@
+<view class='pagetit'>绑定手机</view>
+<view class='prompt'>根据相关法律规定，定制服务前需要绑定手机号</view>
+<view class='line'></view>
+<view class='phonebox'>
+  <view class='phonew'>
+    <view class='numtit'>手机号</view>
+    <input class='number'></input>
+  </view>
+</view>
+<view class='codebox'>
+  <view class='codew'>
+    <view class='codetit'>验证码</view>
+    <view class='immediateaccess'>立即获取</view>
+    <input class='verificationcode'></input>
+  </view>
+</view>
+<view class='butcell'>绑定手机</view>
+<view class='exit'>稍后再说</view>

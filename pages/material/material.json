@@ -1,0 +1,14 @@
+{
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "text"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "text"
+      }
+    ]
+  }
+}

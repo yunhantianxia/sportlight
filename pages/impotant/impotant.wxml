@@ -1,0 +1,13 @@
+<view class='tit'>重要提示</view>
+<view class='titeng'>WARNING</view>
+<view class='line'></view>
+<view class='cont'>有以下情况的亲，请不要进行本体能测试，万一闪到老腰赔了命根子，我们不会给你烧纸钱的哦！</view>
+<view class='option'>
+  <view>心脏病</view>
+  <view>高血压</view>
+  <view>糖尿病</view>
+  <view>怀孕</view>
+  <view>重度腰椎间盘突出</view>
+</view>
+<view class='but'>我已知晓</view>
+<view class='exit'>好的，爱过</view>

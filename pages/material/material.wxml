@@ -1,0 +1,6 @@
+<!--pages/material/material.wxml-->
+<view class='main'>SportLight</view>
+<view class='titup'>剩余匹配时间</view>
+<view class="countdown" >{{countDownHour}}:{{countDownMinute}}:{{countDownSecond}}</view>
+<view class='startmate' bindtap='bindtoinformation'>开始匹配<span>GO</span><span class='triangle'></span></view>
+<view class='titdo'>请如实填写相关信息</view>

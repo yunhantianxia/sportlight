@@ -1,0 +1,23 @@
+.container{
+width:200rpx;
+height:200rpx;
+background: red;
+margin: 200rpx auto;
+border-radius: 50%;
+}
+.ripple {
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 100%;
+height:20rpx;
+width:20rpx;
+/* margin-top: -90px; */
+position: absolute;
+-webkit-transform: scale(0);
+}
+@-webkit-keyframes ripple {
+100% {
+-webkit-transform: scale(12);
+transform: scale(12);
+background-color: transparent;
+}
+}

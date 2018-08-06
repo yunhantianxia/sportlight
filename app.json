@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/material/material",
+    "pages/yy/yy",
+    "pages/yuan/yuan",
+    "pages/tt/tt",
+    "pages/information/information",
+    "pages/bindingphone/bindingphone",
+    "pages/my/my",
+    "pages/impotant/impotant",
+    "pages/mp4/mp4",
+    "pages/mp3/mp3",
+    "pages/physicaltest/physicaltest",
+    "pages/protail/protail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2c2b3d",
+    "navigationBarTitleText": "SportLight",
+    "navigationBarTextStyle":"red"
+  },
+  "tabBar":{
+    "color": "#2c2b3d",
+    "selectedColor": "#2c2b3d",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/material/material",
+        "text": "今日"
+    
+      },
+      {
+        "pagePath": "pages/yy/yy",
+        "text": "计划"
+        
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

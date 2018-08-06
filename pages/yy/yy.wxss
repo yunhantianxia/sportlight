@@ -1,0 +1,240 @@
+/* pages/yy/yy.wxss */
+page{
+  background: #eee;
+}
+.bgcolor{
+  background: #f00 !important;
+  color:#fff;
+}
+.swiper-tab{
+    width: 100%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.active{
+    color:#F65959;
+    border-bottom: 4rpx solid #F65959;
+}
+swiper{
+  text-align: center;
+}
+.tax{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.tax view{
+  float: left;
+  width: 240rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+  background: #fff;
+  border: 1rpx #2c2b3d solid;
+  text-align: center;
+  line-height: 80rpx;
+}
+.taa{
+  margin-left: 95rpx;
+}
+.tabb{
+  margin-right: 95rpx;
+}
+.next{
+  width: 100%;
+  /* background: #fff; */
+  font-family: PingFangSC;
+  font-size: 34rpx;
+  font-weight: 500;
+  letter-spacing: 4rpx;
+  text-align: center;
+  color: #2c2b3d;
+  height: 114rpx;
+  line-height: 114rpx;
+}
+.tado{
+  width: 100%;
+  height: 12rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tado span{
+  display: inline-block;
+  background: greenyellow;
+  height: 100%;
+  width: 25%;
+}
+.tado span:nth-of-type(1){
+  background: #2c2b3d;
+}
+.tbdo{
+  width: 100%;
+  height: 12rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tbdo span{
+  display: inline-block;
+  background: greenyellow;
+  height: 100%;
+  width: 25%;
+}
+.tbdo span:nth-of-type(1){
+  background: #2c2b3d;
+}
+.tbdo span:nth-of-type(2){
+  background: #2c2b3d;
+}
+.tcdo{
+  width: 100%;
+  height: 12rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tcdo span{
+  display: inline-block;
+  background: #2c2b3d;
+  height: 100%;
+  width: 25%;
+}
+.tcdo span:nth-of-type(4){
+  background: greenyellow;
+}
+.tddo{
+  width: 100%;
+  height: 12rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.tddo span{
+  display: inline-block;
+  background: #2c2b3d;
+  height: 100%;
+  width: 25%;
+}
+/* 滑动线条样式 */
+.BirthData{
+  width:750rpx;
+  height:400rpx;
+  background:#ff0;
+}
+
+
+/* pages/slider/slider.wxss */
+
+.body-view{
+  width:750rpx;
+
+}
+.sliderValue{
+  width:50rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: relative;
+  background: #ff0;
+}
+.slideValue{
+  width:50rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: relative;
+
+}
+.sliderLine{
+  width:700rpx;
+  height:6rpx;
+  background: #000;
+  margin:50rpx auto;
+  position: relative;
+}
+.sliderMove{
+  width:60rpx;
+  height:60rpx;
+
+  position: absolute;
+  left:0;
+  top:-25rpx;
+}
+.slide{
+  position: relative;
+}
+.self_slide{
+  width:750rpx;
+  height:200rpx;
+  position: relative;
+  background: #eee;
+  margin:0 auto;
+}
+.self_Line{
+  width:750rpx;
+  height:6rpx;
+  background: #bbb;
+  position: absolute;
+  top:96rpx;
+}
+.self_Box{
+  width:200rpx;
+  height:200rpx;
+
+  position: absolute;
+  top:0;
+}
+.self_dot_T{
+  box-sizing: border-box;
+  width:60rpx;
+  height:90rpx;
+  position: absolute;
+  background: #EEE;
+  top:70rpx;
+  border-top:6rpx solid #bbb;
+  border-radius: 50% 50% 0 0 ;
+}
+.self_dot{
+  width:60rpx;
+  height:90rpx;
+  background:transparent;
+  position: absolute;
+  top:70rpx;
+}
+.spot{
+  width:30rpx;
+  height:30rpx;
+  background:#f0f;
+  position:absolute;
+  left:15rpx;
+  bottom:15rpx;
+  border-radius:50%;
+}
+.spot_T{
+  width:30rpx;
+  height:30rpx;
+  background:#f0f;
+  position:absolute;
+  left:15rpx;
+  bottom:15rpx;
+  border-radius:50%;
+}
+.slider_hidden{
+  width:730rpx;
+  position: absolute;
+  top:108rpx;
+  left:10rpx;
+  margin:0 auto;
+}
+.self_content{
+  
+}

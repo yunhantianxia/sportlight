@@ -1,0 +1,14 @@
+<!--pages/yuan/yuan.wxml-->
+<view class='up'></view>
+<view class="ripple" style="{{rippleStyle}}"></view>
+<view class='ball'>
+  <view class='circ'>
+    <view class='circa'>
+      <view class='circb'>
+        <view class='circc'>
+          <view class="container" bindlongtap="containerTap"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

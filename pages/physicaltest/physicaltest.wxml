@@ -1,0 +1,35 @@
+<view class='bup'>
+  <view class='tou'></view>
+  <view class='tit'>  
+    <view class='titup'>定制计划需要进行体能测试，预计耗时</view>
+    <view class='titdo'>10分钟，准备好了就开始吧！</view>
+  </view>
+</view>
+<view class='option'>
+  <view class='prog'>
+    <view class='line'></view>
+    <view class='name'>体能测试项目</view>
+    <view class='exit'>x</view>
+  </view>
+  <view class='prog'>
+    <view class='num'>01</view>
+    <view class='na' bindtap='bindtopro'>双手背后相触</view>
+    <view class='ex'></view>
+  </view>
+  <view class='prog'>
+    <view class='num'>02</view>
+    <view class='na'>仰卧直腿抬起（单腿）</view>
+    <view class='ex'></view>
+  </view>
+  <view class='prog'>
+    <view class='num'>03</view>
+    <view class='na'>扶墙下蹲</view>
+    <view class='ex'></view>
+  </view>
+  <view class='prog'>
+    <view class='num'>04</view>
+    <view class='na'>一分钟俯卧撑</view>
+    <view class='ex'></view>
+  </view>
+  <view class='startmate' bindtap='bindtoinformation'>开始测试<span>GO</span><span class='triangle'></span></view>
+</view>

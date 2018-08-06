@@ -1,0 +1,30 @@
+<view class='main'>SportLight</view>
+<view class='cont'>
+  <view class="titup">
+    <span>性别</span>
+    <span>生辰</span>
+    <span>身高</span>
+    <span>体重</span>  
+  </view>
+  <view class="titdo">
+    <span>-</span>
+    <span>-</span>
+    <span>-</span>
+    <span>-</span>  
+  </view>
+</view>
+<view class='len'>
+  <view class='lena'>
+    <view class='lenat'>
+      <span>小哥哥</span>
+      <span>小姐姐</span>
+    </view>
+    <view class='next'>下一步</view>
+    <view>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </view>
+  </view>
+</view>

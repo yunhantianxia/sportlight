@@ -1,0 +1,90 @@
+<!--pages/yy/yy.wxml-->
+<view class="swiper-tab">
+  <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="{{showcurrentTab0?'clickTab':''}}">性别</view>
+  <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="{{showcurrentTab1?'clickTab':''}}">生辰</view>
+  <view class="swiper-tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="{{showcurrentTab2?'clickTab':''}}">身高</view>
+  <view class="swiper-tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="{{showcurrentTab3?'clickTab':''}}">体重</view>
+</view>
+
+<swiper current="{{currentTab}}" duration="300" bindchange="swiperTab" style='height:800rpx;'>
+  <!--性别  -->
+  <swiper-item class="taba" style="background: yellow">
+    <view class='tax'>
+      <view class='taa {{sex==1?"bgcolor":""}}' bindtap='selectSex' data-sex="1">小哥哥</view>
+      <view class='tabb {{sex==0?"bgcolor":""}}' bindtap='selectSex' data-sex="0">小姐姐</view>
+    </view>
+    <view class='next' bindtap="next" data-current="{{currentTab}}">下一步</view>
+    <view class='tado'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </view>
+  </swiper-item>
+  <!--生辰  -->
+  <swiper-item class="tabb">
+    <view class='BirthData'>
+      <view>
+        <view bindtap='ChangeshowData'>{{year}}年{{month}}月{{day}}日</view>
+        <view wx:if="{{showData}}">
+        <view bindtap="ChangeshowData">确定</view>
+        <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+          <picker-view-column>
+            <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+          </picker-view-column>
+          <picker-view-column>
+            <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+          </picker-view-column>
+          <picker-view-column>
+            <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+          </picker-view-column>
+        </picker-view>
+        </view>
+      </view>
+      <!-- <slider min="{{slideMin}}" max="{{slideMax}}" backgroundColor='{{sliderBgColor}}' activeColor='{{activeColor}}'></slider> -->
+    </view>
+    <view class='next' bindtap="next" data-current="{{currentTab}}">下一步</view>
+    <view class='tbdo'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </view>
+  </swiper-item>
+  <!--身高  -->
+  <swiper-item class="tabc">
+    <view>
+    <view class="self_slide">
+      <view class='self_content'></view>
+      <view class='self_Line'></view>
+      <view class='slide' style="left:{{sliderLeft}}rpx;" ></view>
+      <slider min='0' max='{{slideMax}}' color='#EEE' selected-color='#eee' activeColor='#eee' block-size="{{TouchClick?18:12}}" value='{{sliderValue}}' block-color="#000" bindchange="slider3change" bindchanging="changeMove" class="slider_hidden"></slider>
+        <view class='slideValue' style="left:{{sliderLeft}}rpx;">{{sliderValue}}</view>
+        <view class="{{TouchClick?'self_dot_T':'self_dot'}}" style="left:{{sliderLeft}}rpx;">
+         
+        </view> 
+
+    
+    </view>
+    </view>
+    <view class='next' bindtap="next" data-current="{{currentTab}}">下一步</view>
+    <view class='tcdo'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </view>
+  </swiper-item>
+  <!--体重  -->
+  <swiper-item class="tabd">
+    <view>
+    </view>
+    <view class='next' bindtap="next" data-current="{{currentTab}}">下一步</view>
+    <view class='tddo'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </view>
+  </swiper-item>
+</swiper>

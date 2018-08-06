@@ -1,0 +1,119 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.0",
+	"appid": "wxcb5d9b79f76b11b7",
+	"projectname": "sportlight",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 1,
+					"name": "shouye",
+					"pathName": "pages/information/information",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tab",
+					"pathName": "pages/tt/tt",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tabbar",
+					"pathName": "pages/yy/yy",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "tt",
+					"pathName": "pages/tt/tt",
+					"query": ""
+				},
+				{
+					"id": 4,
+					"name": "bindingphone",
+					"pathName": "pages/bindingphone/bindingphone",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bindingphone",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "impotant",
+					"pathName": "pages/impotant/impotant",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mp4",
+					"pathName": "pages/mp4/mp4",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mp3",
+					"pathName": "pages/mp3/mp3",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "physicaltest",
+					"pathName": "pages/physicaltest/physicaltest",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "material",
+					"pathName": "pages/material/material",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "physicaltest",
+					"pathName": "pages/physicaltest/physicaltest",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "protail",
+					"pathName": "pages/protail/protail",
+					"query": ""
+				}
+			]
+		}
+	}
+}
